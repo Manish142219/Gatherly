@@ -11,7 +11,7 @@ const Header = () => {
       <div className="wrapper flex items-center justify-between">
         <Link href="/" className="w-36">
           <Image 
-            src="/assets/images/logo.svg" width={128} height={38}
+            src="/assets/images/logo.png" width={128} height={38}
             alt="Evently logo" 
           />
         </Link>
@@ -27,6 +27,7 @@ const Header = () => {
             <UserButton afterSignOutUrl="/" />
             <MobileNav />
           </SignedIn>
+
           <SignedOut>
             <Button asChild className="rounded-full" size="lg">
               <Link href="/sign-in">
@@ -34,6 +35,7 @@ const Header = () => {
               </Link>
             </Button>
           </SignedOut>
+          
         </div>
       </div>
     </header>

@@ -14,8 +14,8 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Bondville",
-  description: 'Bondville is a platform for event management.',
+  title: "Gatherly",
+  description: 'Gatherly is a platform for event management.',
   icons:{
     icon: '/assets/images/logo.svg'
   }
